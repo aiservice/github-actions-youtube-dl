@@ -1,6 +1,5 @@
---all-formats
---max-filesize 50M
 --batch-file playlist.txt
+-f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio' --merge-output-format mp4
 --output downloads/%(title)s_%(id)s.%(ext)s
 --continue
 # --write-description
