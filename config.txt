@@ -1,3 +1,4 @@
+--min-filesize 20M
 --max-filesize 50M
 --batch-file playlist.txt
 --output downloads/%(title)s_%(id)s.%(ext)s
